@@ -18,7 +18,7 @@ const zeldaThrow = document.getElementById("zelda");
 buttonThrow.addEventListener ("click" , function() {
     const aloyResult = (Math.floor(Math.random() * 6) + 1);
     const zeldaResult = (Math.floor(Math.random() * 6) + 1);
-    aloyThrow.innerText = "Aloy ha ritato: " + parseInt(aloyResult);
+    aloyThrow.innerText = "Aloy ha tirato: " + parseInt(aloyResult);
     zeldaThrow.innerText = "Zelda ha tirato: " + parseInt(zeldaResult);
 
     if (aloyResult > zeldaResult) {
